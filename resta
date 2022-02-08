@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+  int a, b, res; // Declarar variables
+
+  printf("Primer numero:");
+  scanf("%d", &a); // Guardar en decimal a
+  printf("Segundo numero:");
+  scanf("%d", &b); // Guardar en decimal b
+
+  res = a - b;
+    printf("Resultado: %d - %d = %d \n", a, b ,res); //Imprimir resultado
+  return 0;
+}
